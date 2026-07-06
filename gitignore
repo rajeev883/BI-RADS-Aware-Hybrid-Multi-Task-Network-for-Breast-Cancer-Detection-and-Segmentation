@@ -1,0 +1,51 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ── Jupyter ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ── OS junk ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Datasets (never commit — link in README instead) ───
+data/
+datasets/
+INbreast/
+INbreast Release.zip
+CBIS-DDSM/
+*.dcm
+*.xls
+*.xlsx
+!docs/**/*.xlsx
+
+# ── Model weights / checkpoints (too large for git) ────
+checkpoints/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# ── Bulk raw outputs (keep only curated results/) ──────
+outputs/
+runs/
+wandb/
+logs/
+*.log
+
+# ── Large notebook outputs (optional: strip before commit) ─
+# Consider using nbstripout to auto-clean notebook outputs:
+#   pip install nbstripout && nbstripout --install
+
+# ── Editor / env files ──────────────────────────────────
+.vscode/
+.idea/
+*.env
