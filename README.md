@@ -33,7 +33,7 @@ Full ablation study, statistical tests, and discussion are in the paper (`docs/`
 ├── notebooks/
 │   └── Q1PAPER__LATEST_CV_External.ipynb   # end-to-end: data prep, training, ablation, CV, external validation
 ├── docs/
-│   └── Q1_Paper.docx                        # full write-up
+│   └── Paper.docx                        # full write-up
 ├── results/
 │   ├── figures/                             # exported PNGs (Fig 1-11 from Appendix B)
 │   └── tables/                              # metrics as CSV (per-fold CV, ablation, external val)
