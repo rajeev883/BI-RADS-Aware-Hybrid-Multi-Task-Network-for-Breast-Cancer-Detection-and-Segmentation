@@ -1,0 +1,2 @@
+Placeholder to keep the results/ directory in the repository.
+Add your result images in this directory (e.g., results/images/ or results/{experiment_name}/). For large binary images, consider using Git LFS.
