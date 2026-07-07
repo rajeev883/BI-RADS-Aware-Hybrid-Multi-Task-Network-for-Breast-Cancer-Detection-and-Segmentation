@@ -1,0 +1,10 @@
+Metric,Mean,Std_Dev
+AUC,0.8234,0.0302
+Sensitivity,0.7614,0.1125
+Specificity,0.6429,0.1404
+F1,0.5383,0.0665
+Precision,0.4264,0.0779
+Recall,0.7614,0.1125
+AUC_PR,0.6897,0.0829
+Dice,0.2007,0.0385
+IoU,0.172,0.0287
