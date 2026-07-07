@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Cross-dataset generalisation: INbreast (single-split val) vs CBIS-DDSM external validation, evaluated zero-shot (no retraining) and after task-balanced fine-tuning on the full CBIS-DDSM training set. All CBIS-DDSM results use the strict, non-overlapping official test split.}
+\label{tab:cbis_ddsm_comparison}
+\begin{tabular}{lccc}
+\toprule
+Metric & INbreast (A5 val) & CBIS-DDSM zero-shot & CBIS-DDSM fine-tuned \\
+\midrule
+AUC-ROC & 0.9040 & 0.576 & 0.7449 \\
+AUC-PR & — & 0.4846 & 0.6416 \\
+Sensitivity & 0.9500 & 0.5109 & 0.7029 \\
+Specificity & 0.7619 & 0.6449 & 0.6542 \\
+Precision & 0.5588 & 0.4812 & 0.5673 \\
+Recall & 0.9500 & 0.5109 & 0.7029 \\
+F1-Score & 0.7037 & 0.4956 & 0.6278 \\
+Dice & 0.3628 & 0.0507 & 0.3674 \\
+IoU & 0.3234 & 0.0363 & 0.2891 \\
+HD95 (px) ↓ & — & 262.95 & 96.27 \\
+\bottomrule
+\end{tabular}
+\end{table*}

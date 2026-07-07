@@ -1,0 +1,18 @@
+{
+  "N_total": 704,
+  "N_malignant": 276,
+  "N_with_mask": 704,
+  "AUC_ROC": 0.576,
+  "AUC_PR": 0.4846,
+  "Sensitivity": 0.5109,
+  "Specificity": 0.6449,
+  "Precision": 0.4812,
+  "Recall": 0.5109,
+  "F1_Score": 0.4956,
+  "Dice": 0.0507,
+  "IoU": 0.0363,
+  "HD95_px": 262.95,
+  "Cls_Threshold": 0.7651,
+  "Seg_Threshold": 0.8,
+  "Dataset": "CBIS-DDSM (zero-shot, full test set)"
+}

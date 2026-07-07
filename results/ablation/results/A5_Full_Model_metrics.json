@@ -1,0 +1,15 @@
+{
+    "AUC_ROC": 0.904,
+    "AUC_PR": 0.7708,
+    "Sensitivity": 0.95,
+    "Specificity": 0.7619,
+    "PPV": 0.5588,
+    "NPV": 0.9796,
+    "F1": 0.7037,
+    "Dice": 0.3628,
+    "IoU": 0.3234,
+    "HD95": 48.62,
+    "Density_Accuracy": 0.3133,
+    "Classification_Threshold": 0.5391,
+    "Segmentation_Threshold": 0.8
+}

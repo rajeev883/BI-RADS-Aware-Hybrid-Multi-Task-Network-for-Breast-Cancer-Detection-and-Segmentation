@@ -1,0 +1,5 @@
+Comparison,Missing in Baseline,Baseline AUC,Proposed AUC,ΔAUC,ΔAUC-PR,ΔSensitivity,ΔSpecificity,ΔF1,ΔDice,ΔIoU
+A1 CNN Only → A5 Proposed,Transformer + Multi-task + Density Prior,0.7976,0.8992,0.1016,0.1104,0.0,0.1904,0.1237,0.0356,0.0394
+A2 CNN+Transformer → A5 Proposed,Multi-task + Density Prior,0.8187,0.8992,0.0805,0.0705,0.2,-0.0953,0.0242,0.093,0.0949
+A3 CNN+Trans+MTL → A5 Proposed,Density Prior,0.8226,0.8992,0.0766,0.034,0.2,-0.1429,-0.0234,0.049,0.0494
+A4 CNN+Trans+Density → A5 Proposed,Multi-task Learning,0.8671,0.8992,0.0321,0.059,0.3,-0.1588,0.0242,0.027,0.0291

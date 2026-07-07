@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Ablation study results on the INbreast dataset. Bold values indicate the best result per metric. HD95: Hausdorff 95th percentile distance (lower is better).}
+\label{tab:ablation}
+\begin{tabular}{lccccccccc}
+\toprule
+Model & AUC-ROC & AUC-PR & Sensitivity & Specificity & F1-Score & Dice & IoU & Density Acc. & HD95 (px) \\
+\midrule
+CNN Backbone Only & 0.7976 & 0.6556 & 0.9500 & 0.5556 & 0.5672 & 0.3272 & 0.2840 & — & 67.0888 \\
+CNN + Transformer & 0.8187 & 0.6955 & 0.7500 & 0.8413 & 0.6667 & 0.2698 & 0.2285 & — & 66.0181 \\
+CNN + Transformer + Multi-task & 0.8226 & 0.7320 & 0.7500 & 0.8889 & \textbf{0.7143} & 0.3138 & 0.2740 & — & 61.6492 \\
+CNN + Transformer + Density Prior & 0.8671 & 0.7070 & 0.6500 & \textbf{0.9048} & 0.6667 & 0.3358 & 0.2943 & \textbf{0.3373} & 53.7422 \\
+Full Model (Proposed) & \textbf{0.8992} & \textbf{0.7660} & \textbf{0.9500} & 0.7460 & 0.6909 & \textbf{0.3628} & \textbf{0.3234} & — & \textbf{48.6200} \\
+\bottomrule
+\end{tabular}
+\end{table*}

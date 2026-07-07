@@ -1,0 +1,7 @@
+Transition,Component Added,From AUC,To AUC,ΔAUC-ROC,ΔAUC-PR,ΔSensitivity,ΔSpecificity,ΔF1,ΔDice,ΔIoU
+Baseline → +Transformer,Transformer,0.7976,0.8187,0.021,0.0399,-0.2,0.2857,0.0995,-0.0574,-0.0555
++Transformer → +Multi-task,Multi-task Learning,0.8187,0.8226,0.004,0.0365,0.0,0.0476,0.0476,0.0441,0.0455
++Transformer → +Density Prior,Density Prior,0.8187,0.8671,0.0484,0.0115,-0.1,0.0635,0.0,0.0661,0.0658
++Multi-task → +Full Model,Density Prior (added to A3),0.8226,0.8992,0.0766,0.034,0.2,-0.1429,-0.0234,0.049,0.0494
++Density → +Full Model,Multi-task (added to A4),0.8671,0.8992,0.0321,0.059,0.3,-0.1588,0.0242,0.027,0.0291
+Baseline → Full Model (Total),All Components,0.7976,0.8992,0.1016,0.1104,0.0,0.1904,0.1237,0.0356,0.0394

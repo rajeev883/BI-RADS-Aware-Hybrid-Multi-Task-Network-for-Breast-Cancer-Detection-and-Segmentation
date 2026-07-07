@@ -1,0 +1,11 @@
+{
+    "AUC_ROC": 0.8671,
+    "AUC_PR": 0.707,
+    "Sensitivity": 0.65,
+    "Specificity": 0.9048,
+    "F1": 0.6667,
+    "Dice": 0.3358,
+    "IoU": 0.2943,
+    "HD95": 53.74,
+    "Density_Accuracy": 0.3373
+}

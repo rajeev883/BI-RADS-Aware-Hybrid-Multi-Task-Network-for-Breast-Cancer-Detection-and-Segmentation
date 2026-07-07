@@ -1,0 +1,6 @@
+Exp,Model Variant,AUC-ROC,AUC-PR,Sensitivity,Specificity,F1-Score,Dice,IoU,HD95 (px),Density Acc.
+A1_CNN_Only,A1: CNN Backbone Only,0.7976,0.6556,0.9500,0.5556,0.5672,0.3272,0.2840,67.0888,
+A2_CNN_Transformer,A2: CNN + Transformer,0.8187,0.6955,0.7500,0.8413,0.6667,0.2698,0.2285,66.0181,
+A3_CNN_Trans_Multitask,A3: CNN + Transformer + Multi-task,0.8226,0.7320,0.7500,0.8889,0.7143,0.3138,0.2740,61.6492,
+A4_CNN_Trans_Density,A4: CNN + Transformer + Density Prior,0.8671,0.7070,0.6500,0.9048,0.6667,0.3358,0.2943,53.7422,0.3373
+A5_Full_Model,A5: Full Model (Proposed),0.8992,0.7660,0.9500,0.7460,0.6909,0.3628,0.3234,48.6200,

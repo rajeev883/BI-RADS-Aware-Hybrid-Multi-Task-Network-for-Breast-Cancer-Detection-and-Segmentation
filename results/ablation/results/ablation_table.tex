@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Ablation Study Results on INbreast Dataset.}
+\label{tab:ablation}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Model & AUC-ROC & AUC-PR & Sensitivity & Specificity & F1 & Dice & IoU & HD95 (px) & DensAcc \\
+\midrule
+A1: CNN Backbone Only & 0.797600 & 0.655600 & 0.950000 & 0.555600 & 0.567200 & 0.327200 & 0.284000 & 67.090000 & NaN \\
+A2: CNN + Transformer & 0.818700 & 0.695500 & 0.750000 & 0.841300 & 0.666700 & 0.269800 & 0.228500 & 66.020000 & NaN \\
+A3: CNN + Transformer + Multi-task & 0.822600 & 0.732000 & 0.750000 & 0.888900 & 0.714300 & 0.313800 & 0.274000 & 61.650000 & NaN \\
+A4: CNN + Transformer + Density Prior & 0.867100 & 0.707000 & 0.650000 & 0.904800 & 0.666700 & 0.335800 & 0.294300 & 53.740000 & NaN \\
+A5: Full Model (Proposed) & 0.904000 & 0.770800 & 0.950000 & 0.761900 & 0.703700 & 0.362800 & 0.323400 & 48.620000 & NaN \\
+\bottomrule
+\end{tabular}
+\end{table}
